@@ -15,8 +15,6 @@ const Block = (props: { inViewport: boolean }) => {
   const text = inViewport ? 'In viewport' : 'Not in viewport';
   return (
     <div className="viewport-block" ref={forwardedRef}>
-      {/* <h3>{ text }</h3>
-      <div style={{ width: '400px', height: '300px', background: color }} /> */}
       <Link to="Header" spy={true} smooth={true} offset={-100} duration={1400}><img src={arrow} alt="arrow" className={inViewport ? 'hidden' : 'Header-div2-mainnav-arrow' } /></Link>
     </div>
     
@@ -71,7 +69,7 @@ export const Header = () => ({
                     <Link to="Contact" spy={true} smooth={true} offset={-100} duration={1400}><p>Contact</p></Link>
                 </div>
                 
-                <ViewportBlock />
+                {/* <ViewportBlock /> */}
             </div>
            
         </div>

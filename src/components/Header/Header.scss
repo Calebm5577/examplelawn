@@ -1,0 +1,95 @@
+.Header {
+    overflow: hidden;
+
+    &-div1 {
+        //overflow: hidden;
+        height: 80vh;
+        background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('../../images/main-large.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        &-number {
+            color: white;
+            margin-left: auto;
+            position: relative;
+            margin-right: 5%;
+            top: 15px;
+            font-size: 45px;
+            width: 270px;
+           // border: 1px solid red;
+        }
+
+        &-email {
+            color: white;
+            margin-left: auto;
+            margin-right: 5%;
+            width: 270px;
+            margin-top: 15px;
+        }
+
+        &-img2 {
+            display: none;
+            height: 100%;
+            position: relative;
+            overflow: hidden;
+        }
+    }
+
+    &-div2 {
+        height: 20vh;
+        background-color: #303030;
+
+        &-h1 {
+            color: #7BAA3C;
+        }
+
+        &-span {
+            color: white !important;
+        }
+
+        &-p {
+            color: white;
+        }
+
+
+        &-mainnav {
+            display: flex;
+            justify-content: space-around;
+            color: #303030;
+            margin-top: 20px;
+
+            & p {
+                //border: 1px solid red;
+                background-color: #7BAA3C;
+                padding: 10px;
+                border-radius: 50%;
+            }
+
+            & p:hover,
+            p:active {
+                background-color: #b0cf85;
+            }
+
+            &-arrow {
+                display: block;
+                position: fixed;
+                color: white;
+                //background-color: white !important;
+                width: 35px;
+                height: 35px;
+                left: 85%;
+                top: 85%;
+                z-index: 10;
+                background-color: rgba(241, 239, 239, 0.432);
+                
+               // top: 0px;
+            }
+            
+
+        }
+    }
+}
+
+.hidden {
+    display: none;
+}

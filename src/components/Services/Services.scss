@@ -1,0 +1,36 @@
+.ServicesTitle {
+    margin-bottom: 15px;
+}
+
+.Services {
+    //background-color: white;
+    width: 80%;
+    margin: auto;
+    position: relative;
+    top: -20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1225px;
+    border-radius: 10%;
+
+    &-div {
+        background-color: white;
+        margin: 25px;
+        width: 300px;
+        height: 210px;
+        border-radius: 25%;
+
+        &-p {
+            width: 250px;
+            margin: auto;
+        }
+
+        &-img {
+            padding: 10px;
+        }
+    }
+}
+
+
+

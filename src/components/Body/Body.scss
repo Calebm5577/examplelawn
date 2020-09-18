@@ -1,0 +1,12 @@
+.Body {
+    background-color: #FFF1E0;
+
+    &-div1 {
+        display: flex;
+        justify-content: center;
+
+        &-p {
+            padding: 50px;
+        }
+    }
+}
